@@ -4,7 +4,7 @@ $page_title = 'Lista de usuario';
 
 $user_list = array(
 	array(
-		'name' 		=> 'Vincent<script>alert("te robe el cookie :)");</script>',
+		'name' 		=> 'Vincent',
 		'gender' 	=> 'M'
 	),
 	array(
@@ -13,7 +13,7 @@ $user_list = array(
 	),
 	array(
 		'name' 		=> 'Randy',
-		'gender' 	=> 'M'
+		'gender' 	=> 'F'
 	),
 	array(
 		'name' 		=> 'Israel',

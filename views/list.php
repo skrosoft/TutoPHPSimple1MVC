@@ -2,13 +2,13 @@
 <p>
 	Hola, soy aqui va la lista.
 </p>
-<table>
+<table class="table table-responsive">
 	<thead>
-		<th>
-			<td>Name</td>
-			<td>Gender</td>
-		</th>
-	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Gender</th>
+		</tr>
+	</thead>
 	<tbody>
 		<?php foreach($user_list as $index=>$user){ ?>
 		<tr>
