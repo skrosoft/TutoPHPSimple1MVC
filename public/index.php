@@ -28,6 +28,7 @@ switch($action){
 
     <!-- Bootstrap -->
     <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,9 +55,9 @@ switch($action){
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="?">Home</a></li>
-                    <li><a href="?action=list">Lista de usuarios</a></li>
-                    <li><a href="?action=details&id=12">Ficha de un usuario</a></li>
+                    <li class="<?php if($action == 'home') echo 'active'; ?>"><a href="?">Home</a></li>
+                    <li class="<?php if($action == 'list') echo 'active'; ?>"><a href="?action=list">Lista de usuarios</a></li>
+                    <li class="<?php if($action == 'details') echo 'active'; ?>"><a href="?action=details&id=12">Ficha de un usuario</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

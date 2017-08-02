@@ -21,4 +21,10 @@ $user_list = array(
 	),
 );
 
+if (isset($_GET['format']) && $_GET['format'] == 'json'){
+    header('content-type: application/json');
+    echo json_encode($user_list);
+    exit;
+}
+
 ?>
