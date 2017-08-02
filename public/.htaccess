@@ -1,0 +1,5 @@
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^tutorialphp.cl [NC]
+RewriteRule ^(.*)$ http://www.tutorialphp.cl/$1 [L,R=301,NC]
