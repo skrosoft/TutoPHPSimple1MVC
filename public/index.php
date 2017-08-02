@@ -1,6 +1,7 @@
 <?php
 
 include_once '../config.php';
+include_once '../_classes/Conexion.php';
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'home';
 

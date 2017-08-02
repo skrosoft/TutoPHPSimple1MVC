@@ -5,7 +5,7 @@ $config = array(
 	'bdd_server' 	=> 'localhost',
 	'bdd_database' 	=> 'tutophp',
 	'bdd_user' 		=> 'tutophp',
-	'bdd_password' => 'tutophp'
+	'bdd_password'  => '9ATJCHKXWP9DZYuB'
 );
 
 ?>
