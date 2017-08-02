@@ -53,7 +53,7 @@ switch($action){
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Pe-ashé-Pe</a>
+                    <a class="navbar-brand" href="?">TutoPHP</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
